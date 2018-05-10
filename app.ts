@@ -28,5 +28,4 @@ class App extends AppBase {
     }
 }
 
-let app = new App();
-app.load();
+let app = new App().load();

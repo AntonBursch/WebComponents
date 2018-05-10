@@ -28,5 +28,6 @@ export class AppBase implements INotifyPropertyChanged {
             }
             BindingOperations.setBindings(document.body, app);
         };
+        return this;
     }
 }
